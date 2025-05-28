@@ -47,14 +47,9 @@ body{
     flex-wrap: wrap; /*makes the boxes in next-line*/
     justify-content: center;
     align-items: center;
-    gap: 1.5vmin; 
+    gap: 1.25vmin; 
 }
 
-
-#footer{
-    justify-content: baseline;
-    font-size: 1.5rem;
-}
 
 .msg-container {  /* styling on container should be done not in id winner */
   margin: 20px auto;
