@@ -42,7 +42,7 @@ disableBtns = () => { // disables clicking of boxes after winner is declared
 }
 
 const showWinner = (winner) => {
-    msgCont.innerText = `Congratulations , winner is ${winner}`; // use backticks ``, not quotes ""
+    msgCont.innerText = `Congratulations , winner is ${winner}`;
     msgCont.classList.remove("hide");
     disableBtns(); // fnc call
 }
